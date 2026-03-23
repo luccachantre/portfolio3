@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background: #363e46;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    background: #53606c;
+}
+
+li {
+    padding: 20px;
+    margin: 10px 50px;
+    color: white;
+    background-color: #3a638c;
+    border-radius: 10px;
+}
+
+#home-button {
+    transform: translateX(-700px);
+}
