@@ -41,7 +41,13 @@ li {
 }
 
 .projects-container {
-    background-color: darkslateblue;
+    background-color: #363e46;
+    text-align: center;
+}
+
+.projects-container  h2{
+    color: white;
+    font-size: 30px;
 }
 
 .p-card-container {
@@ -66,7 +72,7 @@ li {
     width: 450px;
     height: 400px;
     padding: 10px;
-    background-color: rgb(100, 86, 194);
+    background-color: rgb(103, 103, 135);
     border-radius: 20%;
     margin: 20px;
     transition: box-shadow 0.3s, transform 0.3s;
