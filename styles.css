@@ -4,10 +4,17 @@ body {
     font-family: sans-serif;
 }
 
+.nav-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    position: sticky;
     display: flex;
     justify-content: right;
     background: #53606c;
@@ -19,6 +26,24 @@ li {
     color: white;
     background-color: #3a638c;
     border-radius: 10px;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: wheat;
+    animation: fadeInUp 1.8s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    } 
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 #home-button {
