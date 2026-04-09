@@ -68,6 +68,7 @@ h1 {
 .projects-container {
     background-color: #363e46;
     text-align: center;
+    margin-bottom: 200px;
 }
 
 .projects-container  h2{
@@ -80,6 +81,7 @@ h1 {
     height: 800px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .p-pic {
