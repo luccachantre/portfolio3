@@ -9,13 +9,15 @@
   <body>
     <div class="nav-container">
       <ul>
-        <li id="home-button">Home</li>
-        <li>Projects</li>
-        <li>About Me</li>
-        <li>Music</li>
-        <li>Contact</li>
+        <li id="home-button"><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a id="aboutme">About Me</a></li>
+        <li><a id="music">Music</a></li>
+        <li><a id="contact">Contact</a></li>
       </ul>
     </div>
+    <!-- need to delete this home div later and actually figure out nav links -->
+    <div id="home"></div>
     <h1>Lucca Chantre</h1>
     <div class="hero-container">
       <p id="hero-text">
@@ -24,7 +26,7 @@
       </p>
       <button id="hero-button">See Projects</button>
     </div>
-    <div class="projects-container">
+    <div class="projects-container" id="projects">
       <h2>Projects</h2>
       <div class="p-card-container">
         <div class="p-card">

@@ -35,6 +35,12 @@ h1 {
     animation: fadeInUp 1.8s ease forwards;
 }
 
+h2 {
+    padding-top: 100px;
+    /* may need to remove this later, just so that the projects 
+    title isnt hidden under navbar when clicking on the button */
+}
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
