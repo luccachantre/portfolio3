@@ -16,7 +16,7 @@ ul {
     padding: 0;
     position: sticky;
     display: flex;
-    justify-content: right;
+    justify-content: left;
     background: #53606c;
 }
 
@@ -26,6 +26,23 @@ li {
     color: white;
     background-color: #3a638c;
     border-radius: 10px;
+}
+
+li > a {
+    text-decoration: none;
+}
+
+li > a:visited {
+    color: white;
+}
+
+li > a:hover {
+    color: #9fb2c5;
+    text-decoration: none;
+}
+
+li > a:active {
+    color: pink;
 }
 
 h1 {
@@ -53,11 +70,11 @@ h2 {
 }
 
 #home-button {
-    transform: translateX(-700px);
+    /* transform: translateX(-1700px); */
 }
 
 .hero-container {
-    margin: 0 550px;
+    margin: 0 530px;
     display: flex;
     flex-direction: column;
     align-items: center;   
